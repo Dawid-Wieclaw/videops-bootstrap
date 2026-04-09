@@ -1,0 +1,7 @@
+on: [push]
+jobs:
+  my_first_job:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo ”Hello Github Actions!”
+      
