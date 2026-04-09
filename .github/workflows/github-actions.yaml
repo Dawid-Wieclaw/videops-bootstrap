@@ -15,4 +15,4 @@ jobs:
         run: ls -R
 
       - name: Lint
-        run: eslint:test
+        run: eslint:check
