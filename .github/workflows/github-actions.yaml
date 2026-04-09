@@ -1,3 +1,5 @@
+name: bootstrap test
+
 on: [push]
 jobs:
   my_first_job:
@@ -11,3 +13,6 @@ jobs:
 
       - name: List
         run: ls -R
+
+      - name: Lint
+        run: eslint:test
