@@ -16,3 +16,9 @@ jobs:
 
       - name: Lint
         run: npm run eslint:check
+
+      - name: Unit tests
+        run: npm run nyc:run
+
+      - name: Functional tests
+        run: npm run sypress:test
