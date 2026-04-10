@@ -18,7 +18,9 @@ jobs:
         run: npm run eslint:check
 
       - name: Unit tests
-        run: npm run nyc:run
+        run: npm run mocha:test
 
-      - name: Functional tests
-        run: npm run sypress:test
+      - name: Functionale tests
+        run: nyc:run
+
+      

@@ -1,0 +1,1 @@
+{"processes":{"aaca5128-fac1-46b4-8f4b-1c5d51597e1a":{"parent":null,"children":["cdedd8bf-c5f6-4057-8f4a-d4593b6285c8"]},"cdedd8bf-c5f6-4057-8f4a-d4593b6285c8":{"parent":"aaca5128-fac1-46b4-8f4b-1c5d51597e1a","children":[]}},"files":{"/home/dawid/Dawid/Projects/VideOps/bootstrap-app/bootstrap/modules/calculator.js":["cdedd8bf-c5f6-4057-8f4a-d4593b6285c8"]},"externalIds":{}}
