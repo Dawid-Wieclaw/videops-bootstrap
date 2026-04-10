@@ -23,6 +23,9 @@ jobs:
       - name: Cover report
         run: npm run nyc:coverage
 
+      - name: Install
+        run: npm ci
+
       - name: Functional tests
         run: npm run cypress:test
 
