@@ -58,7 +58,5 @@ class Calculator {
       return 1;
     }
   }
-
 }
-
-module.exports = { Calculator };
+module.exports = {Calculator};
