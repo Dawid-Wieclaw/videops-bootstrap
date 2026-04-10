@@ -43,14 +43,22 @@ class Calculator {
     return a - b;
   }
 
+  /**
+ * Performs substraction
+ * @param {Float} a
+ * @param {Float} b
+ * @return {Float} Result of a^b
+ */
   power(a, b) { // NEW FEATURE
     if (b < 0) {
       return 1 / a * this.power(a, b + 1);
     } else if (b > 0) {
-      return a * this.power(a, b - 1)
-    } else
+      return a * this.power(a, b - 1);
+    } else {
       return 1;
+    }
   }
+
 }
 
 module.exports = { Calculator };
