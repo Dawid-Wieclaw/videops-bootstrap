@@ -21,6 +21,6 @@ jobs:
         run: npm run mocha:test
 
       - name: Functionale tests
-        run: nyc:run
+        run: npm run nyc:run
 
       
